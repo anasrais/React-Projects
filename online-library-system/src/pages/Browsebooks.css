@@ -1,0 +1,45 @@
+.browse-container {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .search-bar {
+    width: 60%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .book-card {
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .view-details {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #2575fc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .view-details:hover {
+    background: #6a11cb;
+  }
+  
